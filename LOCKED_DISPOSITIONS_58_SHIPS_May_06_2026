@@ -415,3 +415,28 @@ multi_generational:   true
 flavor_tags:          [fun, casual, foodie-forward, action-packed, entertainment-rich, themed-zones, modern-newer, innovative]
 enclave_brand:        Suite Neighborhood
 sub_enclave_flag:     Coastal Kitchen + The Grove Suite Sun Deck (Deck 17 native)
+---
+
+## ⚠️ KEBAB-TO-SNAKE CONVERSION REQUIRED BEFORE MIGRATION
+
+All multi-word values in this file are kebab-case.
+They must ALL be converted to snake_case before any Vibe migration writes.
+Do NOT migrate any value that still contains a hyphen.
+
+Full conversion list:
+
+solo-friendly        → solo_friendly
+modern-newer         → modern_newer
+lively-energetic     → lively_energetic
+premium-dining       → premium_dining
+quality-focused      → quality_focused
+easy-navigation      → easy_navigation
+entertainment-rich   → entertainment_rich
+foodie-forward       → foodie_forward
+action-packed        → action_packed
+themed-zones         → themed_zones
+wellness-focused     → wellness_focused
+first-timer-friendly → first_timer_friendly
+italian-inspired     → italian_inspired
+design-forward       → design_forward
+mid-size             → mid_size
