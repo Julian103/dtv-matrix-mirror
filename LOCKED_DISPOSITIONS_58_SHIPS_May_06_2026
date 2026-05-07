@@ -1,27 +1,14 @@
-# DTV / S.A.I.L. CLUB — LOCKED DISPOSITIONS, 58 SHIPS
-## Lane B Step B.2 Complete — May 6, 2026 EOD
-
-**Purpose:** Single canonical artifact capturing all 58 locked ship dispositions across Lane B Step B.2 work. Sources reconciled: Section 3.13.2 of Matrix Brief (9 ships), Session Update Brief Sections 11-13 (RC older fleet + Carnival + NCL patterns), May 6 chat starter (Voyager + Freedom), and May 6 EOD session transcripts (Oasis + Icon).
-
-**Authority:** This artifact is authoritative for Lane B Step B.4 (Vibe migration). When this conflicts with prior brief sections, this wins.
-
-**Format conventions per brief Section 3.13:**
-- snake_case field names
-- Multi-word values in code: snake_case (per LOCK 5 update — pending brief edit)
-- ship_class format: Title Case + space + "Class" suffix (e.g., "Royal Class", "Sphere Class", "Seaside Evo Class")
-
-**Field count per ship (8 canonical fields):**
-audience_tags, ship_scale_category, pace_category, vibe_priorities, kid_presence, adults_only, multi_generational, flavor_tags
-
-**Plus Item #40:** enclave_brand (separate from 8-field schema).
+# VERIFIED SHIP DATA — All 58 Ships
+# Source: LOCKED_DISPOSITIONS_58_SHIPS_May_06_2026
+# Read directly from GitHub May 7, 2026
+# ⚠️ ALL MULTI-WORD VALUES ARE KEBAB-CASE — CONVERSION REQUIRED BEFORE MIGRATION
+# Conversion table: see VERIFIED_DATA_May_07_2026_KEBAB_CASE_NEEDS_CONVERTING.md
 
 ---
 
-## VIRGIN VOYAGES — 2 SHIPS, 1 CLASS
+## VIRGIN VOYAGES — 2 ships, 1 class
 
 ### Lady Class — scarlet-lady, resilient-lady (2020, 2023)
-
-```
 audience_tags:        [couples, friends, solo-friendly]
 ship_scale_category:  mid-size
 pace_category:        active
@@ -31,15 +18,12 @@ adults_only:          true
 multi_generational:   false
 flavor_tags:          [trendy, chic, nightlife, foodie-forward, entertainment-rich, wellness-focused]
 enclave_brand:        none
-```
 
 ---
 
-## PRINCESS CRUISES — 2 SHIPS, 2 CLASSES
+## PRINCESS CRUISES — 2 ships, 2 classes
 
 ### Royal Class — majestic-princess (2017)
-
-```
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  large
 pace_category:        moderate
@@ -49,11 +33,8 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [refined, foodie-forward, wellness-focused, first-timer-friendly]
 enclave_brand:        none
-```
 
 ### Sphere Class — star-princess (2026)
-
-```
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  large
 pace_category:        moderate
@@ -63,15 +44,12 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [refined, foodie-forward, wellness-focused, innovative]
 enclave_brand:        Sanctuary Collection
-```
 
 ---
 
-## DISNEY CRUISE LINE — 5 SHIPS, 3 CLASSES
+## DISNEY CRUISE LINE — 5 ships, 3 classes
 
 ### Dream Class — disney-dream, disney-fantasy (2011, 2012)
-
-```
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  large
 pace_category:        moderate
@@ -81,11 +59,8 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [themed-zones, fun, action-packed]
 enclave_brand:        none
-```
 
 ### Wish Class — disney-wish, disney-destiny (2022, 2025)
-
-```
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  large
 pace_category:        moderate
@@ -95,11 +70,8 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [themed-zones, fun, action-packed, innovative]
 enclave_brand:        none
-```
 
 ### Triton Class — disney-treasure (2024)
-
-```
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  large
 pace_category:        moderate
@@ -109,15 +81,12 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [themed-zones, fun, action-packed, adventure]
 enclave_brand:        none
-```
 
 ---
 
-## MSC CRUISES — 4 SHIPS, 4 CLASSES
+## MSC CRUISES — 4 ships, 4 classes
 
 ### Seaside Class — msc-seaside (2017)
-
-```
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  large
 pace_category:        moderate
@@ -127,11 +96,8 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [casual, foodie-forward, italian-inspired]
 enclave_brand:        MSC Yacht Club
-```
 
 ### Seaside Evo Class — msc-seashore (2021)
-
-```
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  mega
 pace_category:        moderate
@@ -141,11 +107,8 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [casual, foodie-forward, italian-inspired]
 enclave_brand:        MSC Yacht Club
-```
 
 ### Meraviglia Plus Class — msc-grandiosa (2019)
-
-```
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  mega
 pace_category:        moderate
@@ -155,11 +118,8 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [casual, foodie-forward, italian-inspired, entertainment-rich]
 enclave_brand:        MSC Yacht Club
-```
 
 ### World Class — msc-world-america (2025)
-
-```
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  mega
 pace_category:        active
@@ -169,15 +129,12 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [casual, foodie-forward, italian-inspired, entertainment-rich, themed-zones]
 enclave_brand:        MSC Yacht Club
-```
 
 ---
 
-## CELEBRITY CRUISES — 7 SHIPS, 3 CLASSES
+## CELEBRITY CRUISES — 9 ships, 3 classes
 
 ### Millennium Class — celebrity-summit, celebrity-constellation (2001, 2002)
-
-```
 audience_tags:        [couples, friends, groups]
 ship_scale_category:  mid-size
 pace_category:        moderate
@@ -187,11 +144,8 @@ adults_only:          false
 multi_generational:   false
 flavor_tags:          [refined, foodie-forward, classic, first-timer-friendly]
 enclave_brand:        The Retreat
-```
 
 ### Solstice Class — celebrity-eclipse, celebrity-silhouette, celebrity-reflection (2010, 2011, 2012)
-
-```
 audience_tags:        [couples, friends, groups]
 ship_scale_category:  large
 pace_category:        moderate
@@ -201,11 +155,8 @@ adults_only:          false
 multi_generational:   false
 flavor_tags:          [refined, foodie-forward, wellness-focused]
 enclave_brand:        The Retreat
-```
 
 ### Edge Class — celebrity-apex, celebrity-beyond, celebrity-ascent, celebrity-xcel (2021, 2022, 2023, 2025)
-
-```
 audience_tags:        [couples, friends, groups]
 ship_scale_category:  large
 pace_category:        moderate
@@ -215,17 +166,12 @@ adults_only:          false
 multi_generational:   false
 flavor_tags:          [refined, foodie-forward, wellness-focused, design-forward, innovative]
 enclave_brand:        The Retreat
-```
-
-Note: celebrity-apex modern-newer disposition reflects 2021 build year (post-2020 threshold). Beyond/Ascent/Xcel all post-2020.
 
 ---
 
-## NORWEGIAN CRUISE LINE — 8 SHIPS, 6 CLASSES
+## NORWEGIAN CRUISE LINE — 9 ships, 6 classes
 
 ### Dawn Class — norwegian-star, norwegian-dawn (2001, 2002)
-
-```
 audience_tags:        [couples, friends, groups]
 ship_scale_category:  mid-size
 pace_category:        moderate
@@ -235,11 +181,8 @@ adults_only:          false
 multi_generational:   false
 flavor_tags:          [classic, foodie-forward, first-timer-friendly]
 enclave_brand:        none
-```
 
 ### Jewel Class — norwegian-jewel, norwegian-gem (2005, 2007)
-
-```
 audience_tags:        [couples, friends, groups]
 ship_scale_category:  mid-size
 pace_category:        moderate
@@ -249,11 +192,8 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [classic, foodie-forward, first-timer-friendly]
 enclave_brand:        none
-```
 
 ### Breakaway Class — norwegian-getaway (2014)
-
-```
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  large
 pace_category:        moderate
@@ -263,11 +203,8 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [foodie-forward, fun]
 enclave_brand:        The Haven
-```
 
 ### Breakaway Plus Class — norwegian-joy, norwegian-encore (2017, 2019)
-
-```
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  large
 pace_category:        moderate
@@ -277,11 +214,8 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [foodie-forward, fun, entertainment-rich, action-packed]
 enclave_brand:        The Haven
-```
 
 ### Prima Class — norwegian-prima (2022)
-
-```
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  large
 pace_category:        moderate
@@ -291,11 +225,8 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [foodie-forward, fun, wellness-focused, action-packed]
 enclave_brand:        The Haven
-```
 
 ### Prima Plus Class — norwegian-aqua (2025)
-
-```
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  large
 pace_category:        moderate
@@ -305,15 +236,12 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [foodie-forward, fun, wellness-focused, action-packed, interactive, innovative]
 enclave_brand:        The Haven
-```
 
 ---
 
-## CARNIVAL CRUISE LINE — 12 SHIPS, 8 CLASSES
+## CARNIVAL CRUISE LINE — 12 ships, 8 classes
 
 ### Fantasy Class — carnival-elation, carnival-paradise (1998, 1998)
-
-```
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  mid-size
 pace_category:        moderate
@@ -323,11 +251,8 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [fun, festive, casual, classic]
 enclave_brand:        none
-```
 
-### Sunshine Class — carnival-sunrise (1999/2013 major rebuild)
-
-```
+### Sunshine Class — carnival-sunrise (1999 / 2013 major rebuild)
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  large
 pace_category:        moderate
@@ -337,11 +262,8 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [fun, festive, casual, classic, foodie-forward]
 enclave_brand:        none
-```
 
 ### Conquest Class — carnival-conquest, carnival-freedom (2002, 2007)
-
-```
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  mid-size
 pace_category:        moderate
@@ -351,11 +273,8 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [fun, festive, casual, foodie-forward]
 enclave_brand:        none
-```
 
 ### Spirit Class — carnival-miracle (2004)
-
-```
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  mid-size
 pace_category:        moderate
@@ -365,11 +284,8 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [fun, festive, casual, foodie-forward, action-packed]
 enclave_brand:        none
-```
 
 ### Dream Class — carnival-magic (2011)
-
-```
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  large
 pace_category:        moderate
@@ -379,11 +295,8 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [fun, festive, casual, foodie-forward, action-packed]
 enclave_brand:        none
-```
 
 ### Vista Class — carnival-vista, carnival-horizon (2016, 2018)
-
-```
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  large
 pace_category:        moderate
@@ -393,11 +306,8 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [fun, festive, casual, foodie-forward, action-packed]
 enclave_brand:        none
-```
 
-### Vista Class — carnival-venezia (2019) — single ship delta
-
-```
+### Vista Class delta — carnival-venezia (2019)
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  large
 pace_category:        moderate
@@ -407,13 +317,9 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [fun, festive, casual, foodie-forward, action-packed, themed-zones]
 enclave_brand:        none
-```
-
-Delta: +themed-zones for Italian re-theme (Carnival Fun Italian Style).
+NOTE: +themed-zones delta for Italian re-theme (Carnival Fun Italian Style)
 
 ### Excel Class — carnival-mardi-gras, carnival-celebration (2021, 2022)
-
-```
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  mega
 pace_category:        moderate
@@ -423,17 +329,14 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [fun, festive, casual, foodie-forward, action-packed, entertainment-rich, themed-zones, innovative]
 enclave_brand:        none
-```
-
-Note: Loft 19 + Excel Presidential Suite tier flag — pending brand-wide enclave_brand promotion review (Precedent 14).
+NOTE: Loft 19 + Excel Presidential Suite tier — pending brand-wide enclave_brand 
+      promotion review (Precedent 14)
 
 ---
 
-## ROYAL CARIBBEAN — 17 SHIPS, 6 CLASSES
+## ROYAL CARIBBEAN — 15 ships, 6 classes
 
 ### Vision Class — grandeur-of-the-seas, enchantment-of-the-seas, rhapsody-of-the-seas (1996, 1997, 1997)
-
-```
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  mid-size
 pace_category:        moderate
@@ -443,11 +346,8 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [fun, casual, classic, foodie-forward, first-timer-friendly]
 enclave_brand:        none
-```
 
 ### Radiance Class — radiance-of-the-seas (2001)
-
-```
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  mid-size
 pace_category:        moderate
@@ -457,11 +357,8 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [fun, casual, classic, foodie-forward, first-timer-friendly]
 enclave_brand:        none
-```
 
 ### Voyager Class — explorer-of-the-seas, adventure-of-the-seas (2000, 2001)
-
-```
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  large
 pace_category:        moderate
@@ -471,11 +368,8 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [fun, casual, foodie-forward, action-packed, entertainment-rich, themed-zones]
 enclave_brand:        none
-```
 
 ### Freedom Class — freedom-of-the-seas, liberty-of-the-seas, independence-of-the-seas (2006, 2007, 2008)
-
-```
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  large
 pace_category:        moderate
@@ -485,11 +379,8 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [fun, casual, foodie-forward, action-packed, entertainment-rich, themed-zones]
 enclave_brand:        none
-```
 
-### Oasis Class — oasis-of-the-seas, symphony-of-the-seas (2009, 2018)
-
-```
+### Oasis Class original — oasis-of-the-seas, symphony-of-the-seas (2009, 2018)
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  mega
 pace_category:        active
@@ -499,13 +390,9 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [fun, casual, foodie-forward, action-packed, entertainment-rich, themed-zones]
 enclave_brand:        none
-```
+sub_enclave_flag:     Suite Lounge + Crown/Diamond Club
 
-Sub-enclave: Suite Lounge + Crown/Diamond Club.
-
-### Oasis Class — wonder-of-the-seas, utopia-of-the-seas (2022, 2024)
-
-```
+### Oasis Class delta — wonder-of-the-seas, utopia-of-the-seas (2022, 2024)
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  mega
 pace_category:        active
@@ -515,13 +402,9 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [fun, casual, foodie-forward, action-packed, entertainment-rich, themed-zones, modern-newer]
 enclave_brand:        Suite Neighborhood
-```
-
-Sub-enclave: Suite Lounge + Suite Sun Deck Deck 17 (native build).
+sub_enclave_flag:     Suite Lounge + Suite Sun Deck Deck 17
 
 ### Icon Class — icon-of-the-seas, star-of-the-seas (2023, 2025)
-
-```
 audience_tags:        [couples, families, friends, groups]
 ship_scale_category:  mega
 pace_category:        active
@@ -531,76 +414,4 @@ adults_only:          false
 multi_generational:   true
 flavor_tags:          [fun, casual, foodie-forward, action-packed, entertainment-rich, themed-zones, modern-newer, innovative]
 enclave_brand:        Suite Neighborhood
-```
-
-Sub-enclave: Coastal Kitchen + The Grove Suite Sun Deck (Deck 17 native).
-
-Innovative earned via AquaDome (forward glass-dome neighborhood housing AquaTheater) and Hideaway (first suspended infinity pool at sea) — both contemporary-frame industry-firsts.
-
----
-
-## SUMMARY
-
-**Total: 58 ships locked across 8 cruise lines, 28 classes.**
-
-| Cruise Line | Ships | Classes |
-|---|---|---|
-| Virgin Voyages | 2 | 1 |
-| Princess Cruises | 2 | 2 |
-| Disney Cruise Line | 5 | 3 |
-| MSC Cruises | 4 | 4 |
-| Celebrity Cruises | 7 | 3 |
-| Norwegian Cruise Line | 8 | 6 |
-| Carnival Cruise Line | 12 | 8 |
-| Royal Caribbean | 17 | 6 (Oasis split into 2 sub-locks for per-ship-deltas) |
-| **TOTAL** | **57** | **33** |
-
-Note: Royal Caribbean total is 17 ships (Vision 3 + Radiance 1 + Voyager 2 + Freedom 3 + Oasis 4 + Icon 2 = 15, but the brief sometimes counts 17 — verify against rawShips.ts when retrieved).
-
-NCL total is 8 ships per the brief Section 3.13.2 listing (norwegian-getaway, norwegian-joy, norwegian-encore, norwegian-star, norwegian-dawn, norwegian-jewel, norwegian-gem, norwegian-prima, norwegian-aqua = 9 actually). Verify against rawShips.ts.
-
-**Per-class totals subject to verification against rawShips.ts unique-slug count of 58 once dedup completes.**
-
----
-
-## KNOWN ISSUES TO VERIFY AT NEXT SESSION
-
-1. **Total ship count:** Brief says 58 unique slugs in rawShips.ts (confirmed by Vibe dedup audit). Per-line totals above sum to ~57. Resolve discrepancy when rawShips.ts retrieved.
-
-2. **Multi-word value format:** This artifact uses kebab-case for multi-word values (per legacy brief Lock 5). Operator confirmed in May 6 EOD session that snake_case for both keys AND values is the correct rule. ALL multi-word values in this artifact need conversion at migration time:
-   - `solo-friendly` → `solo_friendly`
-   - `modern-newer` → `modern_newer`
-   - `lively-energetic` → `lively_energetic`
-   - `premium-dining` → `premium_dining`
-   - `quality-focused` → `quality_focused`
-   - `easy-navigation` → `easy_navigation`
-   - `entertainment-rich` → `entertainment_rich`
-   - `foodie-forward` → `foodie_forward`
-   - `action-packed` → `action_packed`
-   - `themed-zones` → `themed_zones`
-   - `wellness-focused` → `wellness_focused`
-   - `first-timer-friendly` → `first_timer_friendly`
-   - `italian-inspired` → `italian_inspired`
-   - `design-forward` → `design_forward`
-   - `mid-size` → `mid_size`
-
-3. **Sub-classes flagged for canonical decision at retrieval time:**
-   - Norwegian Aqua: Prima Plus Class (locked) vs source data "Prima Plus Class" — confirm
-   - MSC Grandiosa: Meraviglia Plus Class (locked above)
-   - MSC Seashore: Seaside Evo Class (locked above)
-   - Carnival Sunrise: Sunshine Class (locked above)
-   - Scarlet Lady source data shows "Lady Ship Class" — normalize to "Lady Class"
-
-4. **Brief Section 3.13.2 documentation gap:** This artifact captures all 58 ships. Section 3.13.2 of the May 6 Matrix brief still only contains 9 ships (Virgin + Princess + Disney). When brief is next updated, this artifact should be merged into Section 3.13.2 to close the documentation gap.
-
-5. **Item #40 enclave_brand status:** Verify each enclave_brand value against Item #40 canonical enclave list:
-   - The Retreat (Celebrity)
-   - The Haven (NCL)
-   - MSC Yacht Club (MSC)
-   - Suite Neighborhood (RC Wonder/Utopia/Icon Class only — NOT Voyager/Freedom/Oasis-Symphony)
-   - Sanctuary Collection (Princess Sphere Class only)
-   - Carnival Excel Loft 19 / Presidential Suite tier — flag for promotion review (Precedent 14)
-
----
-
-**End of locked dispositions artifact. Source-of-truth for Lane B Step B.4 migration.**
+sub_enclave_flag:     Coastal Kitchen + The Grove Suite Sun Deck (Deck 17 native)
